@@ -49,6 +49,11 @@ namespace XamHawkDemo.Droid
 			SHFeedItem.GetInstance(mApplication.ApplicationContext).NotifyFeedResult(feedid,result);
 		}
 
+		public void NotifyFeedResult(int feedid, string stepid, string feedresult, bool feedDelete, bool completed)
+		{
+			//TODO: not implement yet
+		}
+
 		private static RegisterForNewFeedCallback mNewFeedCallbak;
 
 		public IntPtr Handle
